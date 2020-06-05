@@ -15,7 +15,8 @@ In practice, FCQ uses expectation of experience tuples (s,a,r,s') to minimize th
 
 ## Resources
 - A pytorch implementation of FCQ in Pytorch and an RL-Agent using the FCQ Algorithm are given in [FCQ.py](FCQ.py)
-- An example using FCQ for solving the Gym CartPole environment is given in [FCQ.ipynb](FCQ.ipynb)
+- An example using FCQ for solving the Gym CartPole environment is given in [FCQ.ipynb](FCQ.ipynb):
+![CartPole](CartPole.png)
 
 
 ### Reference
