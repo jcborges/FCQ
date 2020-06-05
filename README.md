@@ -2,7 +2,7 @@
 
 A Fully-Connected Q-function (FCQ) uses a Neural Fitted Q-Iteration (NFQ) for solving reinforcement learning problems [1]. It is a value-based method which follows following procedure:
 - 1. Collect Experiences Samples
-- 2. Calculate Off-Policy TD (Temporal Difference) or MC (Monte Carlo) Targets
+- 2. Calculate Off-Policy TD (Temporal Difference) Targets
 - 3. Use an epsilon-greedy strategy to improve policies.
 - 4. Use mean squared error (MSE) for loss function.
 
