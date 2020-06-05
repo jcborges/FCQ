@@ -9,7 +9,7 @@ A Fully-Connected Q-function (FCQ) uses a Neural Fitted Q-Iteration (NFQ) for so
 This is a primitive example of a value-based method which is the precursor of the DQN Algorithm [2]. 
 It has no Experience Replay Buffer or does not make use of strategies that limit the correlation between states introduced by the DQN Paper.
 
-In practice, FCQ uses expectation of experience tuples (s,a,r,s') to minimize the following loss function [3]:
+In practice, FCQ uses expectation of experience tuples (s,a,r,s') to minimize the following loss function (theta being the parameters of the network) [3]:
 
 ![formula](./render.png)
 
